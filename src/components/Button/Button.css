@@ -1,0 +1,35 @@
+.button {
+    padding: 2rem;
+    font-size: 4rem;
+    background-color: #bae3ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    height: 170px;
+    width: 170px;
+    transition: background-color 0.5s;
+  }
+  
+  .button:hover {
+    background-color: #51ee8d;
+  }
+  
+  .pause-button {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    height: 140px;
+    width: 140px;
+    transform: translateY(-50%);
+    border-radius: 100%;
+    background-color: rgb(149, 195, 255);
+    color: rgb(194, 176, 176);
+    transition: background-color 0.3s;
+  }
+  
+  .pause-button:hover {
+    background-color: rgb(241, 123, 123);
+  }
+  
